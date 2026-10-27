@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8", initial-scale="1.0", content="width=device-width", name="viewport">
+    <link rel="stylesheet" href="CRUDS_style.css">
+    <script src="CRUDS_JS.js" defer></script>
+    <title>Mansi CRUDS😉</title>
+</head>
+<body>
+<div class="cruds">
+
+<!-- head -->
+
+ <div class="head">
+    <h2 class="title">CRUDS PROJECT</h2>
+    <p class="secondTitle">CREATE READ UPDATE DELETE SEARCH</p>
+</div>
+
+
+<div class="inputs">
+    <input type="text" class="proname" placeholder="Product name">
+    <button class="resetbtn">reset</button>
+    <div class="totalprice">
+        <input onkeyup="getTotal()" type="number" class="price" placeholder="Price">
+        <input onkeyup="getTotal()" type="number" class="taxes" placeholder="Taxes (Optional)">
+        <input onkeyup="getTotal()" type="number" class="ads" placeholder="Ads (Optional)">
+        <input onkeyup="getTotal()" type="number" class="discount" placeholder="Discount (Optional)">
+        <h4 class="total"></h4>
+    </div>
+    <input type="number" class="count" placeholder="Count (Optional)">
+    <input type="text" class="category" placeholder="Category">
+    <button class="create">Create</button>
+    <input type="text" class="search" placeholder="Search By Name">
+    <input type="text" class="searchByC" placeholder="Search By Category">
+    <button class="bntsearch">Search By Name</button>
+    <button class="bntsearchByC">Search By Category</button><button class="seeall">SEE ALL</button>
+    <button class="deleteall">DELETE ALL</button>
+</div>
+
+<div class="outputs">
+    <table>
+        <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>price</th>
+            <th>taxes</th>
+            <th>ads</th>
+            <th>discount</th>
+            <th>total</th>
+            <th>category</th>
+            <th>Update</th>
+            <th>delete</th>
+        </tr>
+        <tbody id="tbodytable">
+            <!-- <tr style="color: green;">
+                <td>id</td>
+                <td>title</td>
+                <td>price</td>
+                <td>taxes</td>
+                <td>ads</td>
+                <td>discount</td>
+                <td>total</td>
+                <td>category</td>
+                <button class="update"></button>
+                <button class="delete"></button>
+            </tr> -->
+        </tbody>
+    </table>
+</div>
+
+
+</div>
+</body>
+</html> 
