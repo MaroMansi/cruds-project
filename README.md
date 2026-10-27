@@ -2,11 +2,11 @@
 
 This project was built while following the course by Abdelrahman Gamal (عبدالرحمن جمال) on nouvil site.
 
-A simple product management app built with **HTML,and vanilla  CSS ,JavaScript**. It supports the full **C**reate, **R**ead, **U**pdate, **D**elete and **S**earch cycle, and keeps its data in the browser, so no server or database is needed.
+A simple product management app built with **HTML, CSS and vanilla ,JavaScript**. It supports the full **C**reate, **R**ead, **U**pdate, **D**elete and **S**earch cycle, and keeps its data in the browser, so no server or database is needed.
 
 To see the website interface, open
 
-CRUDS_Screenshot.png
+![CRUDS screenshot](CRUDS_Screenshot.png)
 
 ## Features
 
@@ -32,7 +32,7 @@ No installation is needed.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<MaroMansi>/<cruds-project>.git
+   git clone https://github.com/MaroMansi/cruds-project.git
    ```
 2. Open the project folder.
 3. Open `CRUDS_HTML.html` in your browser.
