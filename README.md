@@ -1,5 +1,7 @@
 # CRUDS: Product Management App
 
+This project was built while following the course by Abdelrahman Gamal (عبدالرحمن جمال) on nouvil site.
+
 A simple product management app built with **HTML,and vanilla  CSS ,JavaScript**. It supports the full **C**reate, **R**ead, **U**pdate, **D**elete and **S**earch cycle, and keeps its data in the browser, so no server or database is needed.
 
 To see the website interface, open
